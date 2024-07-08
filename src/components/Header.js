@@ -8,8 +8,10 @@ function Header() {
 <nav className="main-header navbar navbar-expand-md navbar-light navbar-aqua">
   <div className="container">
     <a href="../../index3.html" className="navbar-brand">
-      <img src="../../dist/img/govt.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
+      <img src="../../dist/img/govt.png" alt="Govt. Logo" className="brand-image img-circle elevation-3" style={{opacity: '1.2'}} />
+      <img src="../../dist/img/smart_dashboard_logo.png" alt="smart Logo" className="brand-image elevation-3" style={{opacity: '1.2'}} />
       <span className="brand-text font-weight-bold text-primary">Smart Dashboard</span>
+      
     </a>
     <button className="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -20,13 +22,9 @@ function Header() {
       <li className="nav-item d-none d-sm-inline-block">
       <a href="index3.html" className="nav-link">Home</a>
     </li>
-    <li className="nav-item dropdown">
-          <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="nav-link dropdown-toggle">Dashboard</a>
-          <ul aria-labelledby="dropdownSubMenu1" className="dropdown-menu border-0 shadow">
-            <li><a href="#" className="dropdown-item">ICTD Dashboard </a></li>
-            <li><a href="#" className="dropdown-item">BJMC Dashboard</a></li>
-          </ul>
-        </li>
+    <li className="nav-item d-none d-sm-inline-block">
+      <a href="#" className="nav-link">Dashboard</a>
+    </li>
     <li className="nav-item d-none d-sm-inline-block">
       <a href="#" className="nav-link">Charts</a>
     </li>
@@ -49,23 +47,12 @@ function Header() {
     <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">➕</a>
     <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
     {/* Level two dropdown*/}
-<li className="dropdown-submenu dropdown-hover">
-  <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="dropdown-item dropdown-toggle">Data</a>
-  <ul aria-labelledby="dropdownSubMenu2" className="dropdown-menu border-0 shadow">
-    <li>
-      <a tabIndex={-1} href="#" className="dropdown-item">Create database</a>
-      <a tabIndex={-1} href="#" className="dropdown-item">Connect Google Sheet</a>
-      <a tabIndex={-1} href="#" className="dropdown-item">Upload CSV to database</a>
-    </li>
-  </ul>
-  </li>
-
-    <li><a href="#" class="dropdown-item">Saved Queries</a></li>
-    <li><a href="#" class="dropdown-item">Chart</a></li>
-    <li><a href="#" class="dropdown-item">Dashboard</a></li>
+    <li><a href="#" class="dropdown-item">Create database</a></li>
+    <li><a href="#" class="dropdown-item">Connect Google Sheet</a></li>
+    <li><a href="#" class="dropdown-item">Upload CSV to database</a></li>
     </ul>
     </li>
-    <li><button type="button" class="btn btn-outline-primary btn-block">👤INVITE USERS </button></li>
+    <li><button type="button" class="btn btn-outline-primary">👤INVITE USERS </button></li>
       {/* Notifications Dropdown Menu */}
       <li className="nav-item dropdown">
         <a className="nav-link" data-toggle="dropdown" href="#">

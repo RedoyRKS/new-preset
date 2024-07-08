@@ -11,7 +11,7 @@ function Home() {
     <div className="container-fluid ">
       <div className="row mb-2">
         <div className="col-sm-6">
-          <h6 className="m-0">Welcome back, ICT User🚀</h6>
+          <h6 className="m-0">Welcome back, ICTD User🚀</h6>
         </div>{/* /.col */}
         <div className="col-sm-6">
           <ol className="breadcrumb float-sm-right">
@@ -27,60 +27,91 @@ function Home() {
   <section className="content ">
     <div className="container-fluid ">
       {/* Small boxes (Stat box) */}
-      <div className='bgitem'>
-        <div className="p-2"> Hello!!</div>
-      <div className="row p-2">
-      <div className="col-md-3 col-sm-6 col-12 ">
-  <div className="info-box">
-    <span className="info-box-icon bg-info"><i className="fa fa-database" /></span>
-    <div className="info-box-content">
-      <span className="info-box-text text-primary font-weight-bold">1. Connect your data </span>
-    </div>
-    <span className=""><i className="fa fa-chevron-right" /></span>
-    {/* /.info-box-content */}
-  </div>
-  {/* /.info-box */}
+     {/* /.row */}
+<div className="row">
+  <div className="col-md-12">
+    <div className="card" style={{ backgroundImage: 'url("../../dist/img/card_image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }} >
+      <div className="card-header" style={{ display: 'flex', alignItems: 'center'}} >
+        <h2 className="card-title" style={{ color: 'white',fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.5)',textAlign:"center" }}>Workspace setup guide</h2>
+        <div className="col-md-6" style={{ marginLeft:"10px" }}>
+            <div className="progress rounded" style={{ height: '.5rem',}}>
+            <div className="progress-bar bg-dark rounded" style={{width: '70%'}} />
+        </div>
 </div>
 
-        {/* ./col */}
-        <div className="col-md-3 col-sm-6 col-12 ">
-  <div className="info-box">
-    <span className="info-box-icon bg-info"><i className="fa fa-chart-bar" /></span>
-    <div className="info-box-content">
-      <span className="info-box-text text-primary font-weight-bold ">2. Create a chart </span>
+        <div className="card-tools" style={{ marginLeft:"400px" }}>
+          <button type="button" className="btn btn-tool" data-card-widget="collapse">
+            <i className="fas fa-minus text-dark" />
+          </button>
+        </div>
+        {/* /.card-tools */}
+      </div>
+      {/* /.card-header */}
+      <div className="card-body" style={{ padding: '0.5rem' }}>
+      <p className="text-light">Not sure where to start? Check out our suggestions for getting your first dashboard up and running.</p>
+      <div>
+  {/* Small Box (Stat card) */}
+  <div className="row" >
+    <div className="col-lg-3 col-6">
+      {/* small card */}
+      <div className="small-box bg-light">
+        <div className="inner">
+        <h6>1. Connect your data</h6>
+        </div>
+        <a href="#" className="small-box-footer">
+          More info <i className="fas fa-arrow-circle-right" />
+        </a>
+      </div>
     </div>
-    <span className=""><i className="fa fa-chevron-right" /></span>
-    {/* /.info-box-content */}
-  </div>
-  {/* /.info-box */}
-</div>
-        {/* ./col */}
-        <div className="col-md-3 col-sm-6 col-12 ">
-  <div className="info-box">
-    <span className="info-box-icon bg-info"><i className="fa fa-desktop" /></span>
-    <div className="info-box-content">
-      <span className="info-box-text text-primary font-weight-bold">3. Create a dashboard </span>
+    {/* ./col */}
+    <div className="col-lg-3 col-6">
+      {/* small card */}
+      <div className="small-box bg-light">
+        <div className="inner">
+        <h6>2. Create a chart</h6>
+        </div>
+        <a href="#" className="small-box-footer">
+          More info <i className="fas fa-arrow-circle-right" />
+        </a>
+      </div>
     </div>
-    <span className=""><i className="fa fa-chevron-right" /></span>
-    {/* /.info-box-content */}
-  </div>
-  {/* /.info-box */}
-</div>
-<div className="col-md-3 col-sm-6 col-12 ">
-  <div className="info-box">
-    <span className="info-box-icon bg-info"><i className="fa fa-users" /></span>
-    <div className="info-box-content">
-      <span className="info-box-text text-primary font-weight-bold">4. Invite teammates </span>
+    {/* ./col */}
+    <div className="col-lg-3 col-6">
+      {/* small card */}
+      <div className="small-box bg-light">
+        <div className="inner">
+        <h6>3. Create a dashboard</h6>
+        </div>
+        <a href="#" className="small-box-footer">
+          More info <i className="fas fa-arrow-circle-right" />
+        </a>
+      </div>
     </div>
-    <span className=""><i className="fa fa-chevron-right" /></span>
-    {/* /.info-box-content */}
+    {/* ./col */}
+    <div className="col-lg-3 col-6">
+      {/* small card */}
+      <div className="small-box bg-light">
+        <div className="inner">
+        <h6>4. Invite teammates</h6>
+        </div>
+        <a href="#" className="small-box-footer">
+          More info <i className="fas fa-arrow-circle-right" />
+        </a>
+      </div>
+    </div>
+    {/* ./col */}
   </div>
-  {/* /.info-box */}
+  {/* /.row */}
 </div>
-        {/* ./col */}
-      </div> 
-      {/* End */}
+
+      </div>
+      {/* /.card-body */}
+    </div>
+    {/* /.card */}
+  </div>
+  {/* /.col */}
 </div>
+{/* /.row */}
       <br></br>
       {/* /.row */}
       {/* Main row */}
@@ -93,14 +124,8 @@ function Home() {
         <div className="col-sm-6">
           {/* <h1>ChartJS</h1> */}
           <ul className="navbar-nav">
-            <li className='chart'><a href="#"> Recent view</a></li>
+            <li className='chart'><a href="#"><button type="button" class="btn btn-outline-success">Recent view</button></a></li>
           </ul>
-        </div>
-        <div className="col-sm-6">
-          <ol className="breadcrumb float-sm-right">
-            <li className="breadcrumb-item btn btn-outline-light"><a href="#" >MANAGE TABS</a></li>
-            
-          </ol>
         </div>
       </div>
     </div>{/* /.container-fluid */}
