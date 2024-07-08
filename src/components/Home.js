@@ -34,8 +34,9 @@ function Home() {
       <div className="card-header" style={{ display: 'flex', alignItems: 'center'}} >
         <h2 className="card-title" style={{ color: 'white',fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.5)',textAlign:"center" }}>Workspace setup guide</h2>
         <div className="col-md-6" style={{ marginLeft:"10px" }}>
-            <div className="progress rounded" style={{ height: '.5rem',}}>
-            <div className="progress-bar bg-dark rounded" style={{width: '70%'}} />
+            <div className="progress rounded" style={{ height: '0.8.5rem'}}>
+            <div className="progress-bar bg-dark rounded" style={{width: '40%'}} />
+            <strong style={{marginTop:"5.5px",marginLeft:"10px"}}>40% complete</strong>
         </div>
 </div>
 
