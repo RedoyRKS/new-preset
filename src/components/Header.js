@@ -10,7 +10,8 @@ function Header() {
     <a href="../../index3.html" className="navbar-brand">
       <img src="../../dist/img/govt.png" alt="Govt. Logo" className="brand-image img-circle elevation-3" style={{opacity: '1.2'}} />
       <img src="../../dist/img/smart_dashboard_logo.png" alt="smart Logo" className="brand-image elevation-3" style={{opacity: '1.2'}} />
-      <span className="brand-text font-weight-bold text-primary">Smart Dashboard</span>
+      <span className="brand-text text-primary">Smart </span> 
+      <span className="brand-text font-weight-bold text-primary">Dashboard</span>
       
     </a>
     <button className="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
