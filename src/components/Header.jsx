@@ -58,7 +58,7 @@ function Header() {
                   Datasets
                 </a>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown dropdown-hover">
                 <a
                   id="dropdownSubMenu1"
                   href="#"
@@ -94,7 +94,7 @@ function Header() {
           </div>
           {/* Right navbar links */}
           <ul className="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown dropdown-hover">
               <a
                 id="dropdownSubMenu1"
                 href="#"
@@ -163,7 +163,7 @@ function Header() {
                 </a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown dropdown-hover">
               <a
                 id="dropdownSubMenu1"
                 href="#"
