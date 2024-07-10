@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -180,7 +181,7 @@ function Header() {
               >
                 <li>
                   <a href="#" class="dropdown-item">
-                    Data access role{" "}
+                    Data access role
                   </a>
                 </li>
                 <li>
@@ -192,6 +193,12 @@ function Header() {
                   <a href="#" class="dropdown-item">
                     Database connection
                   </a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <Link to="/" class="dropdown-item">
+                  Log Out
+                  </Link>
                 </li>
               </ul>
             </li>
