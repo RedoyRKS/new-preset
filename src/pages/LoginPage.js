@@ -41,7 +41,7 @@ function LoginPage() {
             </div>
           </div> */}
           {/* /.col */}
-          <div className="col-4">
+          <div className="col-4" style={{marginLeft:"220px"}}>
             <Link to="/main_home"><button type="submit" className="btn btn-primary btn-block">Sign In</button></Link>
           </div>
           {/* /.col */}

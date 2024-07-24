@@ -130,7 +130,7 @@ function Header() {
             </li>
             <li>
               <button type="button" class="btn btn-outline-light">
-                INVITE USERS{" "}
+                INVITE USERS
               </button>
             </li>
             {/* Notifications Dropdown Menu */}
